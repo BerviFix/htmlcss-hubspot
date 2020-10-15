@@ -15,6 +15,9 @@
 header {
   width: 100%;
   height: 160px;
+  position: sticky;
+  top: 0;
+
 }
 #header-top-container {
   height: 80px;
@@ -46,7 +49,7 @@ header {
 #get-free-button-container {
   float: right;
 }
-#get-free-button {
+#get-free-button-header {
   width: 154px;
   height: 45px;
   border: none;
@@ -99,3 +102,41 @@ ul#menu > li > a {
   text-decoration: none;
 }
 /* Stile header */
+
+/* Stile homepage hero */
+#homepage-hero {
+  width: 100%;
+  height: 695px;
+  position: relative;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+#homepage-hero-content {
+  position: absolute;
+  margin-top: 3%;
+}
+#homepage-hero-content h1 {
+  font-size: 48px;
+  max-width:550px;
+  word-wrap:break-word;
+}
+#homepage-hero-content p {
+  font-size: 18px;
+  max-width:550px;
+  word-wrap:break-word;
+  margin-top: 2%;
+  padding: 2px;
+  line-height: 32px;
+}
+#get-free-button {
+  width: 208px;
+  height: 74px;
+  margin-top: 2%;
+  border: none;
+  background-color: #ff7a59;
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+}
