@@ -11,6 +11,7 @@
   margin: 0 10%;
 }
 
+/* Stile header */
 header {
   width: 100%;
   height: 160px;
@@ -75,11 +76,26 @@ header {
 #search-icon {
   color: #2FB5C9;
 }
-
-
-
-
 #header-bottom-container {
   height: 80px;
+  line-height: 80px;
   background-color: #FFFFFF;
 }
+#navigation {
+  float: right;
+}
+#website-logo{
+  float: left;
+}
+ul#menu {
+  list-style-type: none;
+  /* text-align: center; */
+}
+ul#menu > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+ul#menu > li > a {
+  text-decoration: none;
+}
+/* Stile header */
