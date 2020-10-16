@@ -9,7 +9,7 @@
   <body>
     <header>
       <div id="header-top-container">
-        <div id="header-top" class="center-content">
+        <div id="header-top" class="center-content clearfix::after">
           <!-- Selettore lingua del sito -->
           <div id="language-chooser">
             <i class="fas fa-globe-europe"></i>
@@ -81,19 +81,27 @@
       </div>
     </header>
 
+    <!-- Corpo della pagina -->
     <main>
-      <div id="homepage-hero">
-        <div id="homepage-hero-content" class="center-content">
-          <h1>There's a better way to grow.</h1>
-          <p>Marketing, sales, and service software that helps your business grow without compromise. Because “good for the business” should also mean “good for the customer.”
-          </p>
-          <button id="get-free-button" type="button" name="get-free-button">GetHubpostFree</button>
-          <p>Get started with FREE tools, and upgrade as you grow.</p>
+      <!-- Sezione jumbotron -->
+      <div id="jumbotron">
+        <div id="jumbotron-container" class="center-content">
+          <div id="jumbotron-content">
+            <h1>There's a better way to grow.</h1>
+            <p>Marketing, sales, and service software that helps your business grow without compromise. Because “good for the business” should also mean “good for the customer.”
+            </p>
+            <button id="get-free-button" type="button" name="get-free-button">GetHubpostFree</button>
+            <p>Get started with FREE tools, and upgrade as you grow.</p>
+          </div>
         </div>
       </div>
+      <!-- /Sezione jumbotron -->
 
+      <!-- Divisore tra jumbotron e sezione integrations -->
       <div id="dividers"></div>
+      <!-- /Divisore tra jumbotron e sezione integrations -->
 
+      <!-- Sezione integrations -->
       <div id="integrations-container">
         <div id="growth-stack" class="center-content">
 
@@ -109,7 +117,22 @@
             </div>
           </div>
         </div>
+
+        <div id="crm-box" class="center-content">
+          <div id="img-button" class="clearfix::after">
+            <img id="crm-img" src="img/crm.png" alt="">
+            <button id="learn-more-button" type="button" name="learn-more">Learn More</button>
+          </div>
+
+          <div id="crm-text-content">
+            <!-- <h2>Free HubSpot CRM</h2>
+            <p></p>
+            <h3>Popolar feature</h3> -->
+          </div>
+        </div>
       </div>
+      <!-- /Sezione integrations -->
     </main>
+    <!-- /Corpo della pagina -->
   </body>
 </html>
