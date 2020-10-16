@@ -22,11 +22,16 @@ header {
   width: 100%;
 }
 #header-top-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 80px;
   background-color: #F4F9FD;
   border-bottom: 1px solid black;
   box-sizing: content-box;
   line-height: 80px;
+  z-index: 1;
 }
 #header-top {
   font-size: 18px;
@@ -83,6 +88,7 @@ header {
 }
 #header-bottom-container {
   height: 80px;
+  margin-top: 80px;
   line-height: 80px;
   background-color: #FFFFFF;
 }
@@ -106,14 +112,6 @@ ul#menu > li > a {
 /* /Header */
 
 /* Jumbotron */
-/* #jumbotron {
-  width: 100%;
-  height: 695px;
-  background-image: url(../img/jumbotron.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-} */
 #jumbotron {
   width: 100%;
   height: 695px;
@@ -229,4 +227,8 @@ ul#menu > li > a {
   border-radius: 6px;
   font-size: 16px;
   color: white;
+}
+#crm-text-content {
+  float: left;
+  margin-top: 80px;
 }
