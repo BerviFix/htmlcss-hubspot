@@ -166,7 +166,6 @@ ul#menu > li > a {
 /* Sezione integrations */
 #integrations-container {
   width: 100%;
-  height: 2500px;
   background-color: #F4F9FD;
 }
 
@@ -210,7 +209,7 @@ ul#menu > li > a {
   width: 179px;
   height: 132px;
 }
-#learn-more-button {
+.learn-more-button {
   width: 179px;
   height: 63px;
   margin-top: 15%;
@@ -222,6 +221,7 @@ ul#menu > li > a {
   color: white;
 }
 #crm-text-content {
+  width: 60%;
   float: left;
   padding-top: 5%;
   padding-left: 8%;
@@ -242,8 +242,209 @@ ul#menu > li > a {
   padding-left: 8%;
   display: inline-block;
   vertical-align: middle;
-
 }
 #crm-text-content hr {
   border-top: 2px solid #33475b;
 }
+#crm-feature-list {
+  width: 100%;
+}
+ul#crm-feature {
+  margin-top: 5%;
+  padding-left: 0;
+  list-style-type: none;
+}
+ul#crm-feature > li {
+  display: inline-block;
+}
+ul#crm-feature > li > i {
+  color: #ff7a59;
+}
+ul#crm-feature > li > a {
+  text-decoration: none;
+  padding: 0px 8px;
+}
+.padding-feature {
+  padding-left: 3%;
+}
+/* /Box CRM */
+
+#three-box-container {
+  height: 50%;
+  margin-top: 3%;
+}
+
+/* Marketing Box */
+#marketing-box-container {
+  float: left;
+  width: 30%;
+  height: 700px;
+  margin-bottom: 4%;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.5);
+
+}
+#marketing-box {
+  width: 100%;
+  margin-top: 6%;
+}
+#marketing-box-top h2 {
+  padding-top: 6%;
+}
+#marketing-box-top p {
+  padding: 6% 15%;
+  line-height: 180%;
+}
+#marketing-dividers {
+  width: 320px;
+  height: 2px;
+  background-color: #33475b;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#marketing-box-bottom {
+  margin-top: 10%;
+}
+#marketing-box-bottom h3 {
+  text-transform: uppercase;
+}
+#marketing-feature-list {
+  text-align: left;
+  margin-top: 8%;
+  margin-left: 10%;
+}
+ul#marketing-feature {
+  margin-top: 5%;
+  padding-left: 0;
+  list-style-type: none;
+}
+ul#marketing-feature > li > i {
+  color: #ff7a59;
+}
+ul#marketing-feature > li > a {
+  text-decoration: none;
+  padding: 0 4%;
+}
+#marketing-button {
+  margin-left: 28%;
+}
+/* /Marketing Box */
+
+/* Sales Box */
+#sales-box-container {
+  float: left;
+  width: 30%;
+  height: 700px;
+  margin-bottom: 4%;
+  text-align: center;
+  margin: 0 5%;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.5);
+}
+#sales-box {
+  width: 100%;
+  margin-top: 6%;
+}
+#sales-box-top h2 {
+  padding-top: 6%;
+}
+#sales-box-top p {
+  padding: 6% 15%;
+  line-height: 180%;
+}
+#sales-dividers {
+  width: 320px;
+  height: 2px;
+  background-color: #33475b;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#sales-box-bottom {
+  margin-top: 10%;
+}
+#sales-box-bottom h3 {
+  text-transform: uppercase;
+}
+#sales-feature-list {
+  text-align: left;
+  margin-top: 8%;
+  margin-left: 10%;
+}
+ul#sales-feature {
+  margin-top: 5%;
+  padding-left: 0;
+  list-style-type: none;
+}
+ul#sales-feature > li > i {
+  color: #ff7a59;
+}
+ul#sales-feature > li > a {
+  text-decoration: none;
+  padding: 0 4%;
+}
+#sales-button {
+  margin-left: 28%;
+}
+/* /Sales Box */
+
+/* Service Box */
+#service-box-container {
+  float: left;
+  width: 30%;
+  height: 700px;
+
+  margin-bottom: 4%;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.5);
+}
+#service-box {
+  width: 100%;
+  margin-top: 6%;
+}
+#service-box-top h2 {
+  padding-top: 6%;
+}
+#service-box-top p {
+  padding: 6% 15%;
+  line-height: 180%;
+}
+#service-dividers {
+  width: 320px;
+  height: 2px;
+  background-color: #33475b;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#service-box-bottom {
+  margin-top: 10%;
+}
+#service-box-bottom h3 {
+  text-transform: uppercase;
+}
+#service-feature-list {
+  text-align: left;
+  margin-top: 8%;
+  margin-left: 10%;
+}
+ul#service-feature {
+  margin-top: 5%;
+  padding-left: 0;
+  list-style-type: none;
+}
+ul#service-feature > li > i {
+  color: #ff7a59;
+}
+ul#service-feature > li > a {
+  text-decoration: none;
+  padding: 0 4%;
+}
+#service-button {
+  margin-left: 28%;
+}
+/* /Service Box */
+/* /Sezione integrations */
