@@ -17,6 +17,10 @@
   clear: both;
 }
 
+.cursor-default {
+  cursor: default;
+}
+
 /* Header */
 header {
   width: 100%;
@@ -448,3 +452,134 @@ ul#service-feature > li > a {
 }
 /* /Service Box */
 /* /Sezione integrations */
+
+/* Sezione community */
+#community-container {
+  width: 100%;
+  background-image: linear-gradient(to right, #01A9B8 , #00BCA6);
+  padding-bottom: 5%;
+}
+#community-header {
+  padding-top: 3%;
+  text-align: center;
+}
+#community-header h2 {
+  font-size: 37px;
+  color: #ffffff;
+}
+#community-header p {
+  padding-top: 3%;
+  line-height: 180%;
+  color: #ffffff;
+  font-size: 18.3px;
+}
+#community-main {
+  height: 381px;
+  margin-top: 3%;
+  padding-bottom: 30px;
+}
+.community-box-first-row {
+  float: left;
+  width: 25%;
+  height: 191px;
+  padding: 2% 0;
+  background-color: transparent;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  text-align: center;
+}
+.community-box-first-row h2 {
+  font-size: 45px;
+  padding: 5% 0;
+  font-weight: bold;
+  color: #ffffff;
+}
+.community-box-first-row span {
+  font-size: 30px;
+  font-weight: lighter;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.community-box-first-row p {
+  color: #ffffff;
+}
+.community-box-first-row-last {
+  float: left;
+  width: 25%;
+  height: 191px;
+  padding: 2% 0;
+  background-color: transparent;
+  border-bottom: 1px solid #ffffff;
+  text-align: center;
+}
+.community-box-first-row-last h2 {
+  font-size: 45px;
+  padding: 5% 0;
+  font-weight: bold;
+  color: #ffffff;
+}
+.community-box-first-row-last span {
+  font-size: 30px;
+  font-weight: lighter;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.community-box-first-row-last p {
+  color: #ffffff;
+}
+.community-box-second-row {
+  float: left;
+  width: 25%;
+  height: 191px;
+  padding: 2% 0;
+  background-color: transparent;
+  border-right: 1px solid #ffffff;
+  text-align: center;
+}
+.community-box-second-row h2 {
+  font-size: 45px;
+  padding: 5% 0;
+  font-weight: bold;
+  color: #ffffff;
+}
+.community-box-second-row span {
+  font-size: 30px;
+  font-weight: lighter;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.community-box-second-row p {
+  color: #ffffff;
+}
+.community-box-second-row-last {
+  float: left;
+  width: 25%;
+  height: 191px;
+  padding: 2% 0;
+  background-color: transparent;
+  text-align: center;
+}
+.community-box-second-row-last img {
+  width: 38px;
+  height: 33px;
+}
+.community-box-second-row-last h2 {
+  font-size: 45px;
+  padding: 5% 0;
+  font-weight: bold;
+  color: #ffffff;
+}
+.community-box-second-row-last span {
+  font-size: 30px;
+  font-weight: lighter;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.community-box-second-row-last p {
+  color: #ffffff;
+}
+#marketplace-img {
+  width: 156px;
+  height: 45px;
+}
+/* /Sezione community */
