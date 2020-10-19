@@ -749,3 +749,23 @@ footer {
   color: #cbd6e2;
 }
 /* /Footer */
+
+/* Chat button */
+#chat-button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: #425B76;
+  border-radius: 100%;
+  box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.3);
+  color: #425B76;
+  position: fixed;
+  right: 1%;
+  bottom: 2%;
+  /* padding-right:5%; */
+}
+#chat-button i {
+  color: white;
+  font-size: 35px;
+}
+/* /Chat button */
