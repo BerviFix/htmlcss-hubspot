@@ -248,6 +248,10 @@ ul#menu > li > a {
   vertical-align: middle;
 }
 #crm-text-content hr {
+  width: 430px;
+  margin-left: 9%;
+  display: inline-block;
+  vertical-align: middle;
   border-top: 2px solid #33475b;
 }
 #crm-feature-list {
